@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/363bbaf2a8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="css\index.css">
+    <title>Document</title>
+</head>
+<body>
+    <form class="form-signin pt-5 mt-5" action="/register" method="post">
+        <div class="text-center mb-3">
+          <h3>Sign up with:</h3>
+         
+        </div>
+  
+ 
+  
+        <!-- Username input -->
+        <div class="form-outline mb-2">
+          <input type="text" id="registerUsername" name="username" placeholder="Username" class="form-control"  required/>
+        
+        </div>
+  
+        <!-- Email input -->
+        <div class="form-outline mb-2">
+          <input type="email" id="registerEmail" name="email"  placeholder="Email" class="form-control" required />
+          
+        </div>
+  
+        <!-- Password input -->
+        <div class="form-outline mb-2">
+          <input type="password" id="registerPassword" name="password" placeholder="Password" class="form-control" required />
+          
+        </div>
+  
+        <!-- Repeat Password input -->
+        <div class="form-outline mb-2">
+          <input type="password" id="registerRepeatPassword"  placeholder="Repeat password" class="form-control" required />
+ 
+        </div>
+  
+        <!-- Checkbox -->
+        <div class="form-check d-flex  mb-4">
+          <input class="form-check-input me-2" type="checkbox" value="" id="registerCheck" aria-describedby="registerCheckHelpText"/>
+          <label class="form-check-label" for="registerCheck">
+            I have read and agree to the terms
+          </label>
+        </div>
+  
+        <!-- Submit button -->
+        <button type="submit" class="btn btn-primary btn-block mb-3">Sign in</button>
+      </form>
+</body>
+</html>
